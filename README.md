@@ -14,12 +14,12 @@
 | 中文 | English |
 |------|--------|
 | ✅ **真正独立可执行**：单文件 `.exe`| ✅ **Truly standalone**: Single `.exe` |
-| 📦 **内置 7-Zip 引擎**：自动使用同目录 `7z.exe`（Windows）或系统 7z（其他平台） | 📦 **Bundled 7-Zip engine**: Uses `7z.exe` in the same directory (Windows) or system 7z (others) |
+| 📦 **内置 7-Zip**：自动使用同目录 `7z.exe` 或系统 7z | 📦 **Bundled 7-Zip**: Uses `7z.exe` in the same directory or system 7z |
 | 🔍 **智能格式识别**：自动将无扩展名或错误扩展名的文件重命名为正确压缩格式（如 `.zip`, `.7z`, `.rar`） | 🔍 **Smart format detection**: Fixes missing/wrong extensions (e.g., `.zip`, `.7z`, `.rar`) |
 | 🛡️ **多重安全保障**：<br>• 防压缩炸弹（Zip Bomb）<br>• 默认最大解压体积 50 GB<br>• 默认最大文件数 10,000<br>• 解压前检查磁盘剩余空间 | 🛡️ **Multi-layer safety**:<br>• Anti zip bomb<br>• Max unpacked size: 50 GB (default)<br>• Max file count: 10,000 (default)<br>• Disk space validation before extraction |
 | 🖱️ **集成右键菜单**（Windows）：支持文件夹和桌面背景右键，一键解压整个目录 | 🖱️ **Context menu integration** (Windows): Right-click on folders or desktop background to extract entire directories |
 | 🌐 **四语界面**：简体中文 / 繁体中文 / English / 日本語，自动匹配系统语言，也可通过 `-L` 手动指定 | 🌐 **4-language UI**: Simplified Chinese / Traditional Chinese / English / Japanese — auto-detects system language or set manually with `-L` |
-| 🧹 **自定义清理规则**：通过 `delete_list.txt` 删除垃圾文件（如 `@eaDir`, `Thumbs.db`, `.DS_Store`） | 🧹 **Custom cleanup**: Delete junk files via `delete_list.txt` (e.g., `@eaDir`, `Thumbs.db`, `.DS_Store`) |
+| 🧹 **自定义清理规则**：通过 `delete_list.txt` 或自定义文件删除指定文件（如 `@eaDir`, `Thumbs.db`, `.DS_Store`） | 🧹 **Custom Cleanup Rules**: Delete specified files (such as `@eaDir`, `Thumbs.db`, `.DS_Store`) by using `delete_list.txt` or a custom file. |
 
 ---
 
@@ -138,6 +138,12 @@ nuitka --standalone --onefile ^
   High-accuracy file type detection library
 
 ---
+## 💬 作者说
+
+> 欢迎提出各种问题!
+> Questions? Suggestions?  
+> 一起进步！
+> Let’s learn and improve together!
 
 ## 📜 许可证 / License
 
