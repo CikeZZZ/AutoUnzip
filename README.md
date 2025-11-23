@@ -27,14 +27,18 @@
 
 ```cmd
 :: 自动解压当前目录所有压缩包（无需确认）
+:: Automatically extract all compressed packages in the current directory (no confirmation required)
 AutoExtract.exe -y
 
 :: 添加右键菜单（需管理员权限）
+:: Add a right-click menu (Administrator privileges required)
 AutoExtract.exe --add-context-menu
 ```
 
-> 💡 **提示**：Release 版本已包含 `filetype` 等所有 Python 依赖，**无需 `pip install`**！  
+> 💡 **提示**：Release 版本已包含 `filetype` 等所有 Python 依赖，**无需 `pip install`**！
 > 💡 **Note**: The Release version already includes all Python dependencies such as' filetype ', ** No need for 'pip install' **!
+> 💡 **提示**：右键解压的时候，相当于`-y`，即是，全部确认  
+> 💡 **Note**: When right-clicking to extract the file, it is equivalent to `-y`, which means to confirm all operations.
 
 ---
 
