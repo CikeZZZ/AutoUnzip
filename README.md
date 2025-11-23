@@ -13,7 +13,7 @@
 
 | 中文 | English |
 |------|--------|
-| ✅ **真正独立可执行**：单文件 `.exe`（Windows）或二进制（Linux/macOS），**无需安装 Python 或任何依赖** | ✅ **Truly standalone**: Single `.exe` (Windows) or binary (Linux/macOS) — **no Python or dependencies needed** |
+| ✅ **真正独立可执行**：单文件 `.exe`| ✅ **Truly standalone**: Single `.exe` |
 | 📦 **内置 7-Zip 引擎**：自动使用同目录 `7z.exe`（Windows）或系统 7z（其他平台） | 📦 **Bundled 7-Zip engine**: Uses `7z.exe` in the same directory (Windows) or system 7z (others) |
 | 🔍 **智能格式识别**：自动将无扩展名或错误扩展名的文件重命名为正确压缩格式（如 `.zip`, `.7z`, `.rar`） | 🔍 **Smart format detection**: Fixes missing/wrong extensions (e.g., `.zip`, `.7z`, `.rar`) |
 | 🛡️ **多重安全保障**：<br>• 防压缩炸弹（Zip Bomb）<br>• 默认最大解压体积 50 GB<br>• 默认最大文件数 10,000<br>• 解压前检查磁盘剩余空间 | 🛡️ **Multi-layer safety**:<br>• Anti zip bomb<br>• Max unpacked size: 50 GB (default)<br>• Max file count: 10,000 (default)<br>• Disk space validation before extraction |
