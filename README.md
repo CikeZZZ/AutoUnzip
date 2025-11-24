@@ -146,8 +146,6 @@ nuitka --standalone --onefile ^
 > Questions? Suggestions?  
 > 一起进步！  
 > Let’s learn and improve together!  
-> 程序运行时有彩蛋！😆  
-> There are Easter eggs when the program is running! 😆
 
 ## 📜 许可证 / License
 
